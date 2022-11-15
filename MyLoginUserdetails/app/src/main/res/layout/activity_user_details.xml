@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetails">
+
+    <TextView
+        android:id="@+id/idHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Wellcome to User Details Page"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/usernameview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idHeader"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="username"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/userEmailaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameview"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="username"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/idBtnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userEmailaddress"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="10dp"
+        android:text="BACK"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idlogoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnBack"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="10dp"
+        android:text="Log Out"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/idstartServicebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idlogoutbtn"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="10dp"
+        android:text="Start Services"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

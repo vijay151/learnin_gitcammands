@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services.StartServices">
+
+    <Button
+        android:id="@+id/foregrndbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:text="ForeGrounded Services" />
+
+    <Button
+        android:id="@+id/backgroundbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foregrndbtn"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="10dp"
+        android:text="Bounded Services" />
+
+    <Button
+        android:id="@+id/calculationBoundbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backgroundbtn"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:text="Aidl Services" />
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backgroundbtn"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_horizontal"
+        android:text="Back" />
+
+
+</RelativeLayout>
